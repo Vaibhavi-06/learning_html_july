@@ -10,7 +10,7 @@
         <legend>
             Contact Form
         </legend>
-        <form>
+        <form action="" method="post">
             <label>First Name</label>
             <input type="text" placeholder="Enter First Name"/> <br> <br>
             
@@ -35,6 +35,40 @@
 
             <label><Time></Time></label>
             <input type="datetime-local" placeholder="Enter TIme"/> <br> <br>
+
+            <label>Choose City</label> <br>
+            <input type="checkbox" checked/> Mumbai
+            <input type="checkbox"/> Pune
+            <input type="checkbox"/> Nagpur
+            <input type="checkbox"/> Jalgaon
+
+            <br>
+            <label>Select Gender</label><br>
+            <input type="radio" name="gender" checked/> Male
+            <input type="radio" name="gender"/> Female
+            <input type="radio" name="gender"/> Others
+
+            <br>
+            <label>Select Fav Sweet Dish</label>
+            <select>
+                <option>Choose.....</option>
+                <option>Bundi Ladu</option>
+                <option>Rasgulla</option>
+                <option>Gulabjam</option>
+                <option>Barfi - Kaju</option>
+            </select>
+
+            <label>Upload Image</label><br>
+            <input type="file" multiple/>
+
+            <label>Choose Color</label><br>
+            <input type="color">
+
+            <label>Choose Range</label><br>
+            <input type="range">
+
+            <textarea rows="5" cols="20"></textarea>
+            <input type="submit">
         </form>
     </fieldset>
 </body>
